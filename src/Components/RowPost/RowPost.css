@@ -1,0 +1,35 @@
+
+.title{
+    top: 1;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+.moviecards{
+    display: flex;
+    padding: 50px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.moviecards::-webkit-scrollbar{
+    display: none;
+}
+.movies{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.movies:hover {
+    transform: scale(1.1);
+}
+
+.row{
+    margin-left: 20px;
+}
+
+.youtube{
+    /* margin-left: 450px; */
+}
