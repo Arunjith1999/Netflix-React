@@ -17,8 +17,10 @@ function App() {
      <RowPost title="Actions" url = {action} img="poster_path" />
      <RowPost title="Comedy" url = {comedy} img="poster_path" />
      <RowPost title="Crime" url = {crime} img="poster_path" />
+     <RowPost title="Drama" url = {crime} img="poster_path" />
     </div>
   );
 }
 
 export default App;
+
