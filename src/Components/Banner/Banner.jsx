@@ -13,7 +13,7 @@ function Banner() {
         console.log(value.data.results);
         const uniqurenumber = Math.floor(Math.random() * 20);
         setMovie(value.data.results[uniqurenumber]);
-      });
+      })
     },[]);
   return (
     
